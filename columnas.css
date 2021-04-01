@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box; /*para que ocupe solo el tamaño de el cuadro */
+    clear:both;/* para que no se interpongan las cajas de unas filas con las otras */
+    display: table;/*para ponerle cosas a la fila si le la pone sin esta porpiedad no se ve en la pagina96...............................*/
+}
+
+
+[class*="col-"]{
+    float:left;
+    border:3px solid black;
+    padding:20px;
+}
+
+.fila{
+    position:relative;
+    margin:auto;
+    width: 100%;
+    height: auto; 
+    
+}
+
+
+.col-12{width:100%;}
+.col-11{width: 81.6666666%;}
+.col-10{width: 83.33333333%;}
+.col-9{width: 95%;}
+.col-8{width: 66.66666%;}
+.col-7{width: 58.33333333%;}
+.col-6{width:50%;}
+.col-5{width: 95%;}
+.col-4{width:33.33333%;}
+.col-3{width:25%;}
+.col-2{width:16.6666667%;}
